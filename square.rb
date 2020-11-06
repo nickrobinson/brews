@@ -2,16 +2,16 @@
 class Square < Formula
   desc ""
   homepage ""
-  version "0.0.5"
+  version "0.0.6"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/nickrobinson/square-cli/releases/download/v0.0.5/square_0.0.5_Darwin_x86_64.tar.gz"
-    sha256 "4ca2f7b1ed3d7dacbe52c461bfcef5699051340530ca293731afb43694a912a6"
+    url "https://github.com/nickrobinson/square-cli/releases/download/v0.0.6/square_0.0.6_Darwin_x86_64.tar.gz"
+    sha256 "836b49d999228749bcfcbf5ac7e654f6d962730a459f48e31fd121c67c42f1f2"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/nickrobinson/square-cli/releases/download/v0.0.5/square_0.0.5_Linux_x86_64.tar.gz"
-      sha256 "88519b73e677c9878f39f8d56b264547d19baded12d28146a79d513b777012e9"
+      url "https://github.com/nickrobinson/square-cli/releases/download/v0.0.6/square_0.0.6_Linux_x86_64.tar.gz"
+      sha256 "ef87da09125043cfc855b214d5151e7a9904049e0797c5eb3405ea277ab1aa14"
     end
   end
 
